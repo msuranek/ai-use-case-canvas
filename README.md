@@ -2,6 +2,15 @@
 
 Framework pro vyhodnocení a prioritizaci AI use casů ve firmě.
 
+## English Summary
+
+`ai-use-case-canvas` is a lightweight framework for evaluating and prioritizing AI use cases inside
+companies. It helps teams align on impact, data availability, risk, and delivery complexity before
+they jump into tooling or pilots.
+
+Use it for strategy workshops, internal prioritization, or as a starting point for AI adoption
+conversations with clients and product teams.
+
 ## Proč tenhle repozitář existuje
 
 Firmy často začínají AI iniciativy seznamem nápadů bez společného rámce. Tento repozitář dává
