@@ -1,53 +1,52 @@
 # ai-use-case-canvas
 
-Framework pro vyhodnocení a prioritizaci AI use casů ve firmě.
+A practical framework for evaluating and prioritizing AI use cases in product and business teams.
 
-## English Summary
+## Status
 
-`ai-use-case-canvas` is a lightweight framework for evaluating and prioritizing AI use cases inside
-companies. It helps teams align on impact, data availability, risk, and delivery complexity before
-they jump into tooling or pilots.
+Conceptual toolkit / docs-first repository.
 
-Use it for strategy workshops, internal prioritization, or as a starting point for AI adoption
-conversations with clients and product teams.
+This repository contains lightweight templates and scoring materials for early-stage AI initiative
+planning, workshops, and internal prioritization.
 
-## Proč tenhle repozitář existuje
+## Overview
 
-Firmy často začínají AI iniciativy seznamem nápadů bez společného rámce. Tento repozitář dává
-jednoduchý canvas a scoring model, který pomůže rozhodnout:
+Teams often start AI work with a long list of ideas but no shared evaluation framework.
+`ai-use-case-canvas` provides a simple canvas and scoring model to help assess:
 
-- co má vysoký dopad
-- kde jsou dostupná data
-- jaká je cena chyby
-- co je vhodné jako první pilot
+- expected impact
+- data availability
+- delivery complexity
+- cost of failure
+- suitability for an initial pilot
 
-## Co uvnitř najdeš
+## Repository Contents
 
 - `templates/use-case-canvas.md`:
-  šablona pro workshop nebo interní prioritizační session
+  workshop or prioritization template for documenting a candidate use case
 - `templates/scoring-sheet.md`:
-  jednoduchý model pro bodové hodnocení use casů
+  lightweight scoring model for comparing candidate use cases
 
-## Doporučený způsob použití
+## Suggested Workflow
 
-1. Sepiš 5 až 10 kandidátních use casů.
-2. Pro každý use case vyplň canvas.
-3. Ohodnoť dopad, dostupnost dat, komplexitu a riziko.
-4. Vyber 1 až 2 use case s nejlepším poměrem dopad versus složitost.
-5. Navazuj malým experimentem nebo pilotem.
+1. List 5 to 10 candidate AI use cases.
+2. Complete the use case canvas for each candidate.
+3. Score impact, data availability, complexity, and risk.
+4. Compare candidates using a consistent decision frame.
+5. Select 1 to 2 use cases for an initial experiment or pilot.
 
-## Obsahový potenciál
+## Non-Goals
 
-Repo může fungovat jako:
+- This repository is not a production system.
+- It does not provide implementation code for AI pipelines or agent workflows.
+- It is not a substitute for domain-specific risk review, legal review, or data governance.
 
-- lead magnet pro konzultace nebo workshop
-- open-source doplněk k článku o AI adoption
-- podklad pro interní strategické workshopy
+## References
 
-## Další krok
+- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+- [OECD AI Principles](https://oecd.ai/en/ai-principles)
 
-Po publikaci na GitHubu je vhodné doplnit:
+## License
 
-- vizuální PDF canvas
-- příklad vyplněného use casu
-- mini kalkulačku pro scoring v JavaScriptu nebo Google Sheets
+No license has been added yet. Add a project license before reusing this repository in other
+contexts.
