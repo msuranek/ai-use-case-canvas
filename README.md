@@ -2,9 +2,6 @@
 
 A practical framework for evaluating and prioritizing AI use cases in product and business teams.
 
-## Status
-
-Conceptual toolkit / docs-first repository.
 
 This repository contains lightweight templates and scoring materials for early-stage AI initiative
 planning, workshops, and internal prioritization.
