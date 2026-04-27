@@ -1,49 +1,30 @@
 # ai-use-case-canvas
 
-A practical framework for evaluating and prioritizing AI use cases in product and business teams.
+Šablony a scoring model pro rozhodování, které LLM use cases má smysl implementovat jako první.
 
+## O repozitáři
 
-This repository contains lightweight templates and scoring materials for early-stage AI initiative
-planning, workshops, and internal prioritization.
+Když přemýšlím o nové LLM integraci, potřebuju rychle odhadnout: jaký má dopad, jak složitá je implementace, jaká data jsou k dispozici a co se stane když se to pokazí. Tyhle šablony jsem si vytvořil proto, abych to hodnocení měl konzistentní a nezapomněl na nic důležitého.
 
-## Overview
+Nejde o rigidní framework — spíš o checklist který mi pomůže nevybrat si use case jen proto, že zní zajímavě.
 
-Teams often start AI work with a long list of ideas but no shared evaluation framework.
-`ai-use-case-canvas` provides a simple canvas and scoring model to help assess:
+## Obsah
 
-- expected impact
-- data availability
-- delivery complexity
-- cost of failure
-- suitability for an initial pilot
+- `templates/use-case-canvas.md` — šablona pro popis a hodnocení jednoho use case
+- `templates/scoring-sheet.md` — scoring model pro porovnání více kandidátů
 
-## Repository Contents
+## Jak to používám
 
-- `templates/use-case-canvas.md`:
-  workshop or prioritization template for documenting a candidate use case
-- `templates/scoring-sheet.md`:
-  lightweight scoring model for comparing candidate use cases
+1. Sepíšu 5–10 kandidátních use casů.
+2. Pro každý vyplním canvas (dopad, data, složitost, riziko).
+3. Porovnám skóre a vyberu 1–2 pro první experiment.
+4. Výsledky poslouží jako základ pro rozhodnutí co implementovat.
 
-## Suggested Workflow
+## Co to není
 
-1. List 5 to 10 candidate AI use cases.
-2. Complete the use case canvas for each candidate.
-3. Score impact, data availability, complexity, and risk.
-4. Compare candidates using a consistent decision frame.
-5. Select 1 to 2 use cases for an initial experiment or pilot.
-
-## Non-Goals
-
-- This repository is not a production system.
-- It does not provide implementation code for AI pipelines or agent workflows.
-- It is not a substitute for domain-specific risk review, legal review, or data governance.
-
-## References
-
-- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
-- [OECD AI Principles](https://oecd.ai/en/ai-principles)
+- Produkční systém ani implementace AI pipeline.
+- Náhrada za právní nebo bezpečnostní review.
 
 ## License
 
-No license has been added yet. Add a project license before reusing this repository in other
-contexts.
+MIT — viz LICENSE
